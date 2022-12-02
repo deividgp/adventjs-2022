@@ -1,1 +1,1 @@
-https://adventofcode.com/
+https://adventjs.dev
