@@ -1,14 +1,11 @@
 export default function distributeGifts(packOfGifts, reindeers) {
-  let maxCapacity = 0;
-  let packSize = 0;
+  const packSize = packOfGifts.reduce((total, num) => {
+    return (total += num.length);
+  }, 0);
 
-  packOfGifts.forEach((element) => {
-    packSize += element.length;
-  });
-
-  reindeers.forEach((element) => {
-    maxCapacity += 2 * element.length;
-  });
+  const maxCapacity = reindeers.reduce((total, num) => {
+    return (total += num.length * 2);
+  }, 0);
 
   return Math.floor(maxCapacity / packSize);
 }
