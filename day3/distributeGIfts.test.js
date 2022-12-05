@@ -1,7 +1,6 @@
 import assert from "node:assert";
 import test from "node:test";
 import distributeGifts from "./distributeGifts.js";
-const gifts = ["book", "game", "socks"];
 const packOfGifts = ["book", "doll", "ball"];
 const reindeers = ["dasher", "dancer"];
 
