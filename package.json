@@ -10,7 +10,8 @@
     "day4": "node day4/fitsInOneBox.test.js",
     "day5": "node day5/getMaxGifts.test.js",
     "day6": "node day6/createCube.test.js",
-    "day7": "node day7/getGiftsToRefill.test.js"
+    "day7": "node day7/getGiftsToRefill.test.js",
+    "day8": "node day8/checkPart.test.js"
   },
   "author": "deividgp",
   "license": "ISC"
