@@ -11,7 +11,8 @@
     "day5": "node day5/getMaxGifts.test.js",
     "day6": "node day6/createCube.test.js",
     "day7": "node day7/getGiftsToRefill.test.js",
-    "day8": "node day8/checkPart.test.js"
+    "day8": "node day8/checkPart.test.js",
+    "day8": "node day9/countTime.test.js"
   },
   "author": "deividgp",
   "license": "ISC"
