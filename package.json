@@ -12,7 +12,8 @@
     "day6": "node day6/createCube.test.js",
     "day7": "node day7/getGiftsToRefill.test.js",
     "day8": "node day8/checkPart.test.js",
-    "day8": "node day9/countTime.test.js"
+    "day9": "node day9/countTime.test.js",
+    "day10": "node day9/checkJump.test.js"
   },
   "author": "deividgp",
   "license": "ISC"
